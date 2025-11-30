@@ -1,0 +1,38 @@
+# Ignore Terraform working directory
+.terraform/
+
+# Local tfstate files
+*.tfstate
+*.tfstate.backup
+
+# Crash log
+crash.log
+
+# Ignore CLI local config
+.terraformrc
+terraform.rc
+
+# Ignore override files, tfvars with secrets, and plan output
+override.tf
+override.tf.json
+*_override.tf
+*.tfvars
+*.tfvars.json
+terraform.tfplan
+
+# Provider lock file (safe to keep in repo for reproducible installs, but
+# many people ignore it locally)
+.terraform.lock.hcl
+
+# SSH keys / PEM files often used with examples
+*.pem
+*.key
+
+# IDE/editor specific
+.vscode/
+.idea/
+
+# 
+/tmp
+*.tmp.*
+*.env
