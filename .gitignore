@@ -23,6 +23,7 @@ terraform.tfplan
 # Provider lock file (safe to keep in repo for reproducible installs, but
 # many people ignore it locally)
 .terraform.lock.hcl
+.terraform.tfstate.lock.info
 
 # SSH keys / PEM files often used with examples
 *.pem

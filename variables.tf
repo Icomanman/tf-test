@@ -39,3 +39,8 @@ variable "environment" {
   type        = string
   default     = "tf-test"
 }
+
+variable "subscription_id" {
+  description = "Azure subscription ID"
+  type        = string
+}
